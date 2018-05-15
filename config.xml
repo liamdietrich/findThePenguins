@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.johnprinz.findthepenguins" versionCode="10" version="1.0.1">
+
+    <name>Find The Penguins</name>
+
+    <description>This is a version of the Find the Penguins game done in HTML/CSS/JavaScript for PhoneGap deployment.</description>
+
+    <author href="https://build.phonegap.com" email="jprinz@conestogac.on.ca">John Prinz</author>
+
+    <platform name="android">
+        <preference name="orientation" value="portrait" />
+    </platform>
+
+    <icon src="images/penguin_1.png" platform="android" width="200" height="200" />
+
+    <!-- all platforms -->
+    <preference name="phonegap-version" value="cli-6.5.0" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+
+    <!-- iOS only -->
+    <preference name="target-device" value="universal" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="true" />
+    <preference name="deployment-target" value="7.0" />
+
+    <!-- Android only -->
+    <preference name="android-build-tool" value="ant|gradle" />
+    <preference name="android-minSdkVersion" value="10" />
+    <preference name="android-maxSdkVersion" value="15" />
+    <preference name="android-targetSdkVersion" value="12" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="android-windowSoftInputMode" value="stateVisible|adjustResize" />
+
+</widget>

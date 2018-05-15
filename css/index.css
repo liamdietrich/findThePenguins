@@ -1,0 +1,161 @@
+body {
+    background-color: #ccf5f5;
+}
+
+#title {
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.jumbotron {
+    background-color: inherit;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navscorebox {
+    margin-top: 12px;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+.navbar-inverse .navbar-text {
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-text {
+    text-align: right;
+}
+
+#gameboard {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+#scoreCount,
+#highscoreCount {
+    width: 90%;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+#scoreCount {
+    margin-left: 5px;
+}
+
+.gamePiece {
+    height: 150px;
+}
+
+
+footer p {
+    text-align: right;
+}
+
+hr {
+    border-top: 2px ridge lightblue;
+}
+
+
+.col-xs-6 {
+    padding-right: 0;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+
+    background-color: #fefefe;
+    margin: 45% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.modal-content p {
+    font-size: 2em;
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.close {
+
+    color: : #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+
+    #title {
+        padding-top: 10px;
+    }
+
+    .navbar-inverse .navbar-text {
+        font-size: 1.25em;
+    }
+
+    #scoreCount,
+    #highscoreCount {
+        width: 80%;
+        font-size: 1.25em;
+        text-align: center;
+        margin-left: 10px;
+
+    }
+
+    .gamePiece {
+        height: 100px;
+    }
+
+    footer,
+    hr {
+        display: none;
+    }
+
+    .modal-content {
+        width: 70%;
+    }
+    .modal-content p {
+        font-size: 1.5em;
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+}
